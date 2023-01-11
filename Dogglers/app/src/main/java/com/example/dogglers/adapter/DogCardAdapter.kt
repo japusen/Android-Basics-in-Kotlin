@@ -23,9 +23,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.dogglers.R
-import com.example.dogglers.const.Layout
 import com.example.dogglers.const.Layout.GRID
-import com.example.dogglers.const.Layout.VERTICAL
 import com.example.dogglers.data.DataSource
 
 /**
