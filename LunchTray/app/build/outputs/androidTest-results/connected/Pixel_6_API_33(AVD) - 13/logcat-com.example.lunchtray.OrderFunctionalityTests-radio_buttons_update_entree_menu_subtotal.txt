@@ -1,0 +1,130 @@
+01-17 14:33:02.691 11409 11432 I TestRunner: started: radio_buttons_update_entree_menu_subtotal(com.example.lunchtray.OrderFunctionalityTests)
+01-17 14:33:02.702 11409 11432 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+01-17 14:33:02.708 11409 11432 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10178; state: ENABLED
+01-17 14:33:02.721   808  1120 D SplashScreenView: Build android.window.SplashScreenView{deeed0 V.E...... ......ID 0,0-0,0}
+01-17 14:33:02.721   808  1120 D SplashScreenView: Icon: view: null drawable: null size: 0
+01-17 14:33:02.721   808  1120 D SplashScreenView: Branding: view: android.view.View{8f3ec9 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+01-17 14:33:02.732   398   431 D goldfish-address-space: claimShared: Ask to claim region [0x3f1038000 0x3f1a1c000]
+01-17 14:33:02.747   398   431 D goldfish-address-space: claimShared: Ask to claim region [0x3f49e4000 0x3f53c8000]
+01-17 14:33:02.750   398   442 D goldfish-address-space: claimShared: Ask to claim region [0x3fa790000 0x3fb174000]
+01-17 14:33:02.752   808  1140 W Parcel  : Expecting binder but got null!
+01-17 14:33:02.753 11409 11437 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+01-17 14:33:02.754 11409 11437 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+01-17 14:33:02.756 11409 11437 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+01-17 14:33:02.759 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574 in: PRE_ON_CREATE
+01-17 14:33:02.759 11409 11409 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574
+01-17 14:33:02.775 11409 11409 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10178; state: DISABLED
+01-17 14:33:02.775 11409 11409 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10178; state: ENABLED
+01-17 14:33:02.777 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574 in: CREATED
+01-17 14:33:02.778 11409 11409 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574
+01-17 14:33:02.779 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574 in: STARTED
+01-17 14:33:02.779 11409 11409 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574
+01-17 14:33:02.784 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574 in: RESUMED
+01-17 14:33:02.785 11409 11409 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574
+01-17 14:33:02.787 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574 in: PAUSED
+01-17 14:33:02.787 11409 11409 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574
+01-17 14:33:02.794   445   445 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+01-17 14:33:02.816 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@f65b50d in: PRE_ON_CREATE
+01-17 14:33:02.816 11409 11409 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+01-17 14:33:02.826  1849  1849 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+01-17 14:33:02.827  1849  2889 E HwDetectorWithState: a: 3
+01-17 14:33:02.861 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@f65b50d in: CREATED
+01-17 14:33:02.861 11409 11409 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@f65b50d
+01-17 14:33:02.862 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@f65b50d in: STARTED
+01-17 14:33:02.862 11409 11409 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@f65b50d
+01-17 14:33:02.863 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@f65b50d in: RESUMED
+01-17 14:33:02.863 11409 11409 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@f65b50d
+01-17 14:33:02.883 11409 11434 D HostConnection: createUnique: call
+01-17 14:33:02.883 11409 11434 D HostConnection: HostConnection::get() New Host Connection established 0x743eaec4fad0, tid 11434
+01-17 14:33:02.885 11409 11434 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+01-17 14:33:02.886 11409 11434 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+01-17 14:33:02.886 11409 11434 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+01-17 14:33:02.895   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:02.895   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:02.895   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:02.895   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:02.897 11409 11434 D EGL_emulation: eglCreateContext: 0x743eaec506d0: maj 2 min 0 rcv 2
+01-17 14:33:02.928 11409 11434 D EGL_emulation: eglMakeCurrent: 0x743eaec506d0: ver 2 0 (tinfo 0x7440c58d7080) (first time)
+01-17 14:33:02.937   232   232 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+01-17 14:33:02.938 11409 11434 I Gralloc4: mapper 4.x is not supported
+01-17 14:33:02.938 11409 11434 D HostConnection: createUnique: call
+01-17 14:33:02.939 11409 11434 D HostConnection: HostConnection::get() New Host Connection established 0x743eaec530d0, tid 11434
+01-17 14:33:02.939 11409 11434 D goldfish-address-space: allocate: Ask for block of size 0x100
+01-17 14:33:02.940 11409 11434 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3efffe000 size 0x2000
+01-17 14:33:02.974   232   232 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+01-17 14:33:02.976   230   230 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+01-17 14:33:02.977 11409 11434 W Gralloc4: allocator 4.x is not supported
+01-17 14:33:02.979   398   442 D goldfish-address-space: claimShared: Ask to claim region [0x3f8000000 0x3f89e4000]
+01-17 14:33:02.992 11409 11434 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+01-17 14:33:03.002   398   442 D goldfish-address-space: claimShared: Ask to claim region [0x3f89e4000 0x3f93c8000]
+01-17 14:33:03.004   398   442 D goldfish-address-space: claimShared: Ask to claim region [0x3ff174000 0x3ffb58000]
+01-17 14:33:03.018 11409 11434 W Parcel  : Expecting binder but got null!
+01-17 14:33:03.032   611   636 W ziparchive: Unable to open '/data/app/~~vkcp6jTQD6ZyF5mqTg6ssA==/com.example.lunchtray-tjpyGGMgUgbCxlsaTiXuWA==/base.dm': No such file or directory
+01-17 14:33:03.037   611   636 I ActivityTaskManager: Displayed com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity: +317ms
+01-17 14:33:03.061   445   471 W TransactionTracing: Could not find layer handle 0x757217e26690
+01-17 14:33:03.061   445   471 W TransactionTracing: Could not find layer handle 0x757217e21350
+01-17 14:33:03.074   901  1222 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-17 14:33:03.074   901  1222 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-17 14:33:03.082 11409 11409 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10178; state: ENABLED
+01-17 14:33:03.094   445   471 W TransactionTracing: Could not find layer handle 0x757217e28a30
+01-17 14:33:03.094   445   471 W TransactionTracing: Could not find layer handle 0x757217e28d30
+01-17 14:33:03.094   445   471 W TransactionTracing: Could not find layer handle 0x757217e1fbb0
+01-17 14:33:03.176 11409 11409 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574 in: STOPPED
+01-17 14:33:03.177 11409 11409 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@b925574
+01-17 14:33:03.211  1551  1551 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220
+01-17 14:33:03.215  1551  1551 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+01-17 14:33:03.216  1551  1551 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.lunchtray fieldId=-1 fieldName=null extras=null}, false)
+01-17 14:33:03.216 11409 11432 D EventInjectionStrategy: Creating injection strategy with input manager.
+01-17 14:33:03.216 11409 11432 W ample.lunchtray: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+01-17 14:33:03.216  1551  1551 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+01-17 14:33:03.217 11409 11432 W ample.lunchtray: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+01-17 14:33:03.217 11409 11432 W ample.lunchtray: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+01-17 14:33:03.228   445   471 W TransactionTracing: Could not find layer handle 0x757217e27d10
+01-17 14:33:03.315 11409 11432 W ample.lunchtray: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+01-17 14:33:03.344   901  1222 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-17 14:33:03.345   901  1222 D BtGatt.ScanManager: uid 10105 isForeground true scanMode -1
+01-17 14:33:03.348  1313  1729 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+01-17 14:33:03.349  1313  1729 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+01-17 14:33:03.353  1313  1729 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+01-17 14:33:03.359  1313  1729 I FontLog : Pulling font file for id = 45, cache size = 6 [CONTEXT service_id=132 ]
+01-17 14:33:03.364  1313  1729 I FontLog : Pulling font file for id = 45, cache size = 6 [CONTEXT service_id=132 ]
+01-17 14:33:03.376 11409 11409 W ample.lunchtray: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+01-17 14:33:03.376 11409 11409 W ample.lunchtray: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+01-17 14:33:03.376 11409 11409 W ample.lunchtray: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+01-17 14:33:03.379   611  2170 W InputManager-JNI: Input channel object '353b1dd Splash Screen com.example.lunchtray (client)' was disposed without first being removed with the input manager!
+01-17 14:33:03.383 11409 11409 W ample.lunchtray: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+01-17 14:33:03.383 11409 11409 W ample.lunchtray: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+01-17 14:33:03.383 11409 11409 W ample.lunchtray: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+01-17 14:33:03.390 11409 11409 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230844/com.example.lunchtray:id/cauliflower>
+01-17 14:33:03.397  1290  1290 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=196.0, y[0]=177.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2022427, downTime=2022427, deviceId=-1, source=0x1002, displayId=0, eventId=-156486990 }
+01-17 14:33:03.428   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:03.437  1290  1290 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=196.0, y[0]=177.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2022470, downTime=2022427, deviceId=-1, source=0x1002, displayId=0, eventId=-952617631 }
+01-17 14:33:03.547   445   471 W TransactionTracing: Could not find layer handle 0x757217e25d30
+01-17 14:33:03.547   445   471 W TransactionTracing: Could not find layer handle 0x757217e21050
+01-17 14:33:03.547   445   471 W TransactionTracing: Could not find layer handle 0x757217e218f0
+01-17 14:33:03.547   445   471 W TransactionTracing: Could not find layer handle 0x757217e21050
+01-17 14:33:03.547   445   471 W TransactionTracing: Could not find layer handle 0x757217e218f0
+01-17 14:33:03.594   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:03.594   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:03.868 11409 11409 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $7.00"}' assertion on view view.getId() is <2131231217/com.example.lunchtray:id/subtotal>
+01-17 14:33:03.870 11409 11409 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230858/com.example.lunchtray:id/chili>
+01-17 14:33:03.871  1290  1290 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=244.0, y[0]=408.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2022904, downTime=2022904, deviceId=-1, source=0x1002, displayId=0, eventId=-167343053 }
+01-17 14:33:03.894   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:03.933  1290  1290 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=244.0, y[0]=408.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2022966, downTime=2022904, deviceId=-1, source=0x1002, displayId=0, eventId=-172711443 }
+01-17 14:33:03.986   426   554 D AudioFlinger: mixer(0x7c08e098f9a0) throttle end: throttle time(37)
+01-17 14:33:04.177   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:04.177   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:04.249 11409 11434 D EGL_emulation: app_time_stats: avg=10.77ms min=1.35ms max=213.44ms count=35
+01-17 14:33:04.448 11409 11409 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $4.00"}' assertion on view view.getId() is <2131231217/com.example.lunchtray:id/subtotal>
+01-17 14:33:04.450 11409 11409 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231106/com.example.lunchtray:id/pasta>
+01-17 14:33:04.452  1290  1290 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=254.0, y[0]=682.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2023485, downTime=2023485, deviceId=-1, source=0x1002, displayId=0, eventId=-90225019 }
+01-17 14:33:04.492  1290  1290 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=254.0, y[0]=682.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2023525, downTime=2023485, deviceId=-1, source=0x1002, displayId=0, eventId=-165190963 }
+01-17 14:33:04.694   445   471 W TransactionTracing: Could not find layer id -1
+01-17 14:33:04.975 11409 11417 I ample.lunchtray: Compiler allocated 4533KB to compile void android.view.ViewRootImpl.performTraversals()
+01-17 14:33:05.149 11409 11409 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $5.50"}' assertion on view view.getId() is <2131231217/com.example.lunchtray:id/subtotal>
+01-17 14:33:05.150 11409 11409 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231175/com.example.lunchtray:id/skillet>
+01-17 14:33:05.152  1290  1290 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=319.0, y[0]=956.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2024185, downTime=2024184, deviceId=-1, source=0x1002, displayId=0, eventId=-164834947 }
+01-17 14:33:05.190  1290  1290 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=319.0, y[0]=956.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=2024224, downTime=2024184, deviceId=-1, source=0x1002, displayId=0, eventId=-777729399 }
+01-17 14:33:05.250 11409 11434 D EGL_emulation: app_time_stats: avg=1.89ms min=1.46ms max=3.14ms count=33
+01-17 14:33:05.682 11409 11409 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Subtotal: $5.50"}' assertion on view view.getId() is <2131231217/com.example.lunchtray:id/subtotal>
+01-17 14:33:05.683 11409 11432 I TestRunner: finished: radio_buttons_update_entree_menu_subtotal(com.example.lunchtray.OrderFunctionalityTests)
