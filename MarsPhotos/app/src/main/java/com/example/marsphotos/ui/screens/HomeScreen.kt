@@ -16,9 +16,12 @@
 package com.example.marsphotos.ui.screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
+import androidx.compose.material.Button
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -33,37 +36,19 @@ import com.example.marsphotos.ui.theme.MarsPhotosTheme
 @Composable
 fun HomeScreen(
     marsUiState: MarsUiState,
+    retryAction: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     when (marsUiState) {
         is MarsUiState.Loading -> LoadingScreen(modifier)
         is MarsUiState.Success -> ResultScreen(marsUiState.photos, modifier)
-        is MarsUiState.Error -> ErrorScreen(modifier)
+        is MarsUiState.Error -> ErrorScreen(retryAction, modifier)
     }
-
 }
 
 /**
- * The home screen displaying result of fetching photos.
+ * The home screen displaying the loading message.
  */
-@Composable
-fun ResultScreen(marsUiState: String, modifier: Modifier = Modifier) {
-    Box(
-        contentAlignment = Alignment.Center,
-        modifier = modifier.fillMaxSize()
-    ) {
-        Text(marsUiState)
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun ResultScreenPreview() {
-    MarsPhotosTheme {
-        ResultScreen(stringResource(R.string.placeholder_result))
-    }
-}
-
 @Composable
 fun LoadingScreen(modifier: Modifier = Modifier) {
     Box(
@@ -78,13 +63,56 @@ fun LoadingScreen(modifier: Modifier = Modifier) {
     }
 }
 
+/**
+ * The home screen displaying error message with re-attempt button.
+ */
 @Composable
-fun ErrorScreen(modifier: Modifier = Modifier) {
+fun ErrorScreen(retryAction: () -> Unit, modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(stringResource(R.string.loading_failed))
+        Button(onClick = retryAction) {
+            Text(stringResource(R.string.retry))
+        }
+    }
+}
+
+/**
+ * ResultScreen displaying number of photos retrieved.
+ */
+@Composable
+fun ResultScreen(photos: String, modifier: Modifier = Modifier) {
     Box(
         contentAlignment = Alignment.Center,
         modifier = modifier.fillMaxSize()
     ) {
-        Text(stringResource(R.string.loading_failed))
+        Text(photos)
     }
 }
 
+@Preview(showBackground = true)
+@Composable
+fun LoadingScreenPreview() {
+    MarsPhotosTheme {
+        LoadingScreen()
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun ErrorScreenPreview() {
+    MarsPhotosTheme {
+        ErrorScreen({})
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun ResultScreenPreview() {
+    MarsPhotosTheme {
+        ResultScreen(stringResource(R.string.placeholder_success))
+    }
+}
